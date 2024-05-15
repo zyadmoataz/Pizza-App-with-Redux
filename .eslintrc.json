@@ -1,0 +1,4 @@
+//configure our eslint in our project
+{
+  "extends": "react-app"
+}
