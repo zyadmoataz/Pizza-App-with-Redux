@@ -5,12 +5,12 @@ function Button({ children, disabled, to, type, onClick }) {
   // const className =
   //   'text-stone- inline-block rounded-full bg-yellow-400 px-4 py-3 uppercase tracking-widest text-stone-800 transition-colors duration-300 hover:bg-yellow-300 focus:bg-yellow-300 focus:outline-none focus:ring focus:ring-yellow-300 focus:ring-offset-2 disabled:cursor-not-allowed sm:px-6 sm:py-4';
   const base =
-    'text-sm text-stone- inline-block rounded-full bg-yellow-400 uppercase tracking-widest text-stone-800 transition-colors duration-300 hover:bg-yellow-300 focus:bg-yellow-300 focus:outline-none focus:ring focus:ring-yellow-300 focus:ring-offset-2 disabled:cursor-not-allowed';
+    'text-sm text-stone-400 inline-block rounded-full bg-yellow-400 uppercase tracking-widest text-stone-800 transition-colors duration-300 hover:bg-yellow-300 focus:bg-yellow-300 focus:outline-none focus:ring focus:ring-yellow-300 focus:ring-offset-2 disabled:cursor-not-allowed';
 
   const styles = {
     small: base + ' px-2 py-1.5  md:px-5 md:py-2.5 text-xs',
-    round: base + 'px-2.5 py-1  md:px-3.5 md:py-2 text-sm font-medium',
-    circle: base + 'px-1 py-1  md:px-1 md:py-1 text-sm font-medium',
+    round: base + ' sm:px-3.5 sm:py-2 text-sm font-medium px-2 py-0.5',
+    circle: base + ' sm:px-1 sm:py-1 text-sm font-medium px-1 py-1 ',
     primary: base + ' px-4 py-3  md:px-6 md:py-4',
     // decrease the padding in the secondary button as it has border
     secondary:
